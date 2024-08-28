@@ -6,7 +6,7 @@ import { FirstPage } from './components/firstpage/FirstPage.jsx'
 import {SecondPage} from './components/secondPage/SecondPage.jsx'
 import { Header } from './components/header/Header.jsx'
 import {
-  BrowserRouter as Router, Routes, Route, Switch
+  BrowserRouter as Router, Routes, Route
 } from 'react-router-dom'
 
 function App() {
@@ -16,10 +16,12 @@ function App() {
     <>
 
     <Header />
-    <Switch>
-      <Route exact path="/" Component={FirstPage}></Route>
-      <Route exact path="/second" Component={SecondPage}></Route>
-    </Switch>
+    <Routes>
+      <Route name="app_draugas" path="/draugas">
+        <Route name="main_pge" path="" element={<FirstPage/>}></Route>
+        <Route name="second_pge" path="second" element={<SecondPage/>}></Route>
+      </Route>
+    </Routes>
   
     
 

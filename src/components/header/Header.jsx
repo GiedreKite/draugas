@@ -6,10 +6,10 @@ return <>
         <header class="">
         <img src={draugas} alt="" />
             <nav>
-                <Link to="/">
+                <Link to="/draugas">
                     <a>Pagrindinis</a>
                 </Link>
-                <Link to="/second">
+                <Link to="/draugas/second">
                     <a>Second</a>
                 </Link>
                 {/* <Link to="/">
