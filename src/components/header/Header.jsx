@@ -1,10 +1,10 @@
-import {d} from './img/d.png'
+import {draugas} from './img/draugas.png'
 
 export function Header() {
 return <>
 
         <header class="">
-            <img src={d} alt="Logo" />
+            <img src={draugas} alt="Logo" />
             <nav>
                 <a class={currentPageHref === '/' ? 'active' : ''} href="/">Pagrindinis</a>
                 <a class={currentPageHref === '/about' ? 'active' : ''} href="/about">Apie projekta</a>
