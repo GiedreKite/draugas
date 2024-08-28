@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { FirstPage } from './components/firstpage/FirstPage.jsx'
-import { Header } from './components/Header/Header.jsx'
+import { Header } from './components/header/Header.jsx'
 
 
 function App() {

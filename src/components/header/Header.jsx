@@ -4,7 +4,7 @@ export function Header() {
 return <>
 
         <header class="">
-            <img src={draugas} alt="Logo" />
+        <img src={draugas} alt="" />
             <nav>
                 <a class={currentPageHref === '/' ? 'active' : ''} href="/">Pagrindinis</a>
                 <a class={currentPageHref === '/about' ? 'active' : ''} href="/about">Apie projekta</a>
