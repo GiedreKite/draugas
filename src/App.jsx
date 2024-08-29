@@ -3,11 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { FirstPage } from './components/firstpage/FirstPage.jsx'
-import {SecondPage} from './components/secondPage/SecondPage.jsx'
+import { SecondPage } from './components/secondPage/SecondPage.jsx'
 import { Header } from './components/header/Header.jsx'
+import { ThirdPage } from './components/thirdPage/ThirdPage.jsx'
 import {
   BrowserRouter as Router, Routes, Route
 } from 'react-router-dom'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,9 +19,10 @@ function App() {
 
     <Header />
     <Routes>
-      <Route name="app_draugas" path="/draugas">
-        <Route name="main_pge" path="" element={<FirstPage/>}></Route>
-        <Route name="second_pge" path="second" element={<SecondPage/>}></Route>
+      <Route className="appDraugas" path="/draugas">
+        <Route className="mainPage" path="" element={<FirstPage/>}></Route>
+        <Route className="secondPage" path="second" element={<SecondPage/>}></Route>
+        <Route className="thirdPage" path="third" element={<ThirdPage/>}></Route>
       </Route>
     </Routes>
   

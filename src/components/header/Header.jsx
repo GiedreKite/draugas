@@ -1,16 +1,20 @@
 import draugas from './img/draugas.png'
 import { Link } from 'react-router-dom'
+import style from './Header.module.css';
 export function Header() {
 return <>
 
-        <header class="">
-        <img src={draugas} alt="" />
+        <header className="">
+        <img className={style.img}src={draugas} alt="Logo" />
             <nav>
                 <Link to="/draugas">
-                    <a>Pagrindinis</a>
+                    <button>Pagrindinis</button>
                 </Link>
                 <Link to="/draugas/second">
-                    <a>Second</a>
+                    <button>Second</button>
+                </Link>
+                <Link to="/draugas/third">
+                    <button>Third</button>
                 </Link>
                 {/* <Link to="/">
                     <a>Pagrindinis</a>
