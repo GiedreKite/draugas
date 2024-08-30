@@ -300,208 +300,208 @@ export function SecondPage (props) {
     
        <section className={style.container}>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide0()} className={style.question}>Kino teatras
+            <h3 onClick={() => hide0()} className={style.question}>Kino teatras
                 <img style={show0===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show0===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button onClick={() => hide00()} style={show0===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas į kino teatrą, filmo žiūrėjimas drauge.</button>
+            </h3>
+            <h3 onClick={() => hide00()} style={show0===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas į kino teatrą, filmo žiūrėjimas drauge.</h3>
             <p style={show00===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Filmo metu dalinamasi mintimis. 
-                <button>Pasirinkti</button>
+                <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show00===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Filmo metu tylima.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
     
-            <button onClick={() => hide01()} style={show0===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Filmo žiūrėjimas drauge ir įpsūdžių pasidalinimas po filmo valanda laiko prie puodelio arbatos.</button>
+            <h3 onClick={() => hide01()} style={show0===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Filmo žiūrėjimas drauge ir įpsūdžių pasidalinimas po filmo valanda laiko prie puodelio arbatos.</h3>
             <p style={show01===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Filmo metu pasidalinama mintimis, o dalinamasi įspūdžiais po filmo, prie kavos ar arbatos puodelio.
-                <button>Pasirinkti</button></p>
+                <button className={style.btn}>Pasirinkti</button></p>
             <p style={show01===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Filmo metu tylima,  o dalinamasi įspūdžiais po filmo, prie kavos ar arbatos puodelio.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
         </div>
     
         <div  className={style.questionContainer}>
-            <button onClick={() => hide1()} className={style.question}>Teatras
+            <h3 onClick={() => hide1()} className={style.question}>Teatras
                 <img style={show1===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show1===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button onClick={() => hide10()} style={show1===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge į teatrą.</button>
+            </h3>
+            <h3 onClick={() => hide10()} style={show1===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge į teatrą.</h3>
             <p style={show10===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Teatro metu pasidalinama mintimis.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show10===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Teatro metu tylima.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
     
-            <button onClick={() => hide11()} style={show1===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge ir įpsūdžių pasidalinimas po teatro valanda laiko prie puodelio arbatos.</button>
+            <h3 onClick={() => hide11()} style={show1===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge ir įpsūdžių pasidalinimas po teatro valanda laiko prie puodelio arbatos.</h3>
             <p style={show11===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Teatro metu pasikeičiama keliais žodžiais, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show11===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Teatro metu tylima, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
         </div>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide2()} className={style.question}>Pokalbiai
+            <h3 onClick={() => hide2()} className={style.question}>Pokalbiai
                 <img style={show2===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show2===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button  style={show2===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Pokalbiai telefonu, internetu.
-            <button>Pasirinkti</button>
-            </button>
-            <button  style={show2===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Poklabiai susitinkus gyvai.
-            <button>Pasirinkti</button>
-            </button>
-            <button  style={show2===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Pokalbiai, kurių gali ir nebūti, tyloje praleistas laikas drauge.
-            <button>Pasirinkti</button>
-            </button>
+            </h3>
+            <h3  style={show2===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Pokalbiai telefonu, internetu.
+            <button className={style.btn}>Pasirinkti</button>
+            </h3>
+            <h3  style={show2===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Poklabiai susitinkus gyvai.
+            <button className={style.btn}>Pasirinkti</button>
+            </h3>
+            <h3  style={show2===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Pokalbiai, kurių gali ir nebūti, tyloje praleistas laikas drauge.
+            <button className={style.btn}>Pasirinkti</button>
+            </h3>
         </div>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide3()} className={style.question}>Repeticija
+            <h3 onClick={() => hide3()} className={style.question}>Repeticija
                 <img style={show3===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show3===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button  style={show3===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Repetuoji? Nori palaikymo, pastebėjimų ar draugiško patarimo? Prašau, padėsiu stebėdama nuotoliu ar klausantis telefonu.
-            <button>Pasirinkti</button>
-            </button>
-            <button  style={show3===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Repeticijos gyvas žiūrovas, kuris palaikys, padės ir pagirs, ar pasakys savo pastebėjimus.
-            <button>Pasirinkti</button>
-            </button>
+            </h3>
+            <h3  style={show3===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Repetuoji? Nori palaikymo, pastebėjimų ar draugiško patarimo? Prašau, padėsiu stebėdama nuotoliu ar klausantis telefonu.
+            <button className={style.btn}>Pasirinkti</button>
+            </h3>
+            <h3  style={show3===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Repeticijos gyvas žiūrovas, kuris palaikys, padės ir pagirs, ar pasakys savo pastebėjimus.
+            <button className={style.btn}>Pasirinkti</button>
+            </h3>
         </div>
        
         <div  className={style.questionContainer}>
-            <button onClick={() => hide4()} className={style.question}>Pasivaikščiojimas
+            <h3 onClick={() => hide4()} className={style.question}>Pasivaikščiojimas
                 <img style={show4===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show4===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button onClick={() => hide40()} style={show4===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Pasivaikčiojimas gamtoje, pajūryje, parkuose ar kur širdis kviečia.            </button>
+            </h3>
+            <h3 onClick={() => hide40()} style={show4===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Pasivaikčiojimas gamtoje, pajūryje, parkuose ar kur širdis kviečia.            </h3>
             <p style={show40===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Pasivaikščiojimams gamtoje nebūtina kalbėti, galima drauge ir patylėti.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show40===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Pasivaikščiojimas su lengvomis temomis ar diskusijomis.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
     
-            <button onClick={() => hide41()} style={show4===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Pasivaikščiojimas mieste.</button>
+            <h3 onClick={() => hide41()} style={show4===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Pasivaikščiojimas mieste.</h3>
             <p style={show41===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Pasivaikčiojimas mieste tylint.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show41===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Pasivaikčiojimas mieste bendraujant.
-            <button>Pasirinkti</button>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
         </div>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide5()} className={style.question}>Vakarienė
+            <h3 onClick={() => hide5()} className={style.question}>Vakarienė
                 <img style={show5===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show5===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button onClick={() => hide50()} style={show5===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Gamtoje</button>
+            </h3>
+            <h3 onClick={() => hide50()} style={show5===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Gamtoje</h3>
             <p style={show50===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Vakarienė gamtoje tyloje, stebint saulėlydį ar gėrintis gamta.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
             <p style={show50===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Vakarienė gamtoje bendraujant
-            <button>Pasirinkti</button>.</p>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>.</p>
     
-            <button onClick={() => hide51()} style={show5===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mieste.</button>
+            <h3 onClick={() => hide51()} style={show5===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mieste.</h3>
             <p style={show51===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Vakarienė mieste tylint.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
             <p style={show51===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Vakarienė mieste bendraujant.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
         </div>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide6()} className={style.question}>Koncertas
+            <h3 onClick={() => hide6()} className={style.question}>Koncertas
                 <img style={show6===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show6===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button onClick={() => hide60()} style={show6===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge.</button>
+            </h3>
+            <h3 onClick={() => hide60()} style={show6===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge.</h3>
             <p style={show60===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Koncerto metu pasidalinama mintimis.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
             <p style={show60===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Koncerto metu tylima.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
     
-            <button onClick={() => hide61()} style={show6===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge ir įpsūdžių pasidalinimas po koncerto valanda laiko prie puodelio arbatos.</button>
+            <h3 onClick={() => hide61()} style={show6===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge ir įpsūdžių pasidalinimas po koncerto valanda laiko prie puodelio arbatos.</h3>
             <p style={show61===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Koncerto metu pasidalinama mintimis, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
             <p style={show61===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Koncerto metu tylima, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
         </div>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide7()} className={style.question}>Renginys
+            <h3 onClick={() => hide7()} className={style.question}>Renginys
                 <img style={show7===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show7===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button onClick={() => hide70()} style={show7===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge.</button>
+            </h3>
+            <h3 onClick={() => hide70()} style={show7===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge.</h3>
             <p style={show70===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Renginio metu pasidalinama mintimis.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
             <p style={show70===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Renginio metu tylima.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
     
-            <button onClick={() => hide71()} style={show7===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge ir įpsūdžių pasidalinimas po renginio valanda laiko prie puodelio arbatos.</button>
+            <h3 onClick={() => hide71()} style={show7===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge ir įpsūdžių pasidalinimas po renginio valanda laiko prie puodelio arbatos.</h3>
             <p style={show71===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Renginio metu pasidalinama mintimis, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
             <p style={show71===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Renginio metu tylima, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
         </div>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide8()} className={style.question}>Sportas
+            <h3 onClick={() => hide8()} className={style.question}>Sportas
                 <img style={show8===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show8===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button onClick={() => hide80()} style={show8===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Ėjimas drauge į sporto salę.</button>
+            </h3>
+            <h3 onClick={() => hide80()} style={show8===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Ėjimas drauge į sporto salę.</h3>
             <p style={show80===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Sportuojant bendraujama.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
             <p style={show80===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Sportuojant tylima.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
     
-            <button onClick={() => hide81()} style={show8===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Sportas nuotoliniu būdu.</button>
+            <h3 onClick={() => hide81()} style={show8===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Sportas nuotoliniu būdu.</h3>
             <p style={show81===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Sportuojant dalinamasi įspūdžiais.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
             <p style={show81===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Sportuojant tylima.
-            <button>Pasirinkti</button>
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
             </p>
         </div>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide9()} className={style.question}>Mokintis.
+            <h3 onClick={() => hide9()} className={style.question}>Mokintis.
                 <img style={show9===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show9===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button onClick={() => hide90()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge programavimo.
-            <button>Pasirinkti</button>
-            </button>
-            <button onClick={() => hide91()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge šokti.
-            <button>Pasirinkti</button>
-            </button>
-            <button onClick={() => hide92()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge sporto veiklos.
-            <button>Pasirinkti</button>
-            </button>
-            <button onClick={() => hide93()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis gaminti.
-            <button>Pasirinkti</button>
-            </button>
+            </h3>
+            <h3 onClick={() => hide90()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge programavimo.
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            </h3>
+            <h3 onClick={() => hide91()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge šokti.
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            </h3>
+            <h3 onClick={() => hide92()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge sporto veiklos.
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            </h3>
+            <h3 onClick={() => hide93()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis gaminti.
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            </h3>
         </div>
         <div  className={style.questionContainer}>
-            <button onClick={() => hide100()} className={style.question}>Mityba
+            <h3 onClick={() => hide100()} className={style.question}>Mityba
                 <img style={show1000===true ? (false ? {display: "flex"}: {display: "none"} ) : {}} className={style.questionImg} src={plus} alt="plus" />
                 <img style={show1000===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
-            </button>
-            <button style={show1000===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Laikytis dietos.
-            <button>Pasirinkti</button>
-            </button>
-            <button style={show1000===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Sveikai maitintis.
-            <button>Pasirinkti</button>
-            </button>
+            </h3>
+            <h3 style={show1000===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Laikytis dietos.
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            </h3>
+            <h3 style={show1000===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Sveikai maitintis.
+            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            </h3>
         </div>
        </section>
     
