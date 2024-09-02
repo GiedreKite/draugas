@@ -397,17 +397,17 @@ export function SecondPage (props) {
             </h3>
             <h3 onClick={() => hide50()} style={show5===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Gamtoje</h3>
             <p style={show50===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Vakarienė gamtoje tyloje, stebint saulėlydį ar gėrintis gamta.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show50===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Vakarienė gamtoje bendraujant
-            <buttnon className={style.btn}>Pasirinkti</buttnon>.</p>
+            <button className={style.btn}>Pasirinkti</button>.</p>
     
             <h3 onClick={() => hide51()} style={show5===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mieste.</h3>
             <p style={show51===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Vakarienė mieste tylint.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show51===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Vakarienė mieste bendraujant.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
         </div>
         <div  className={style.questionContainer}>
@@ -417,18 +417,18 @@ export function SecondPage (props) {
             </h3>
             <h3 onClick={() => hide60()} style={show6===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge.</h3>
             <p style={show60===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Koncerto metu pasidalinama mintimis.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show60===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Koncerto metu tylima.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
     
             <h3 onClick={() => hide61()} style={show6===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge ir įpsūdžių pasidalinimas po koncerto valanda laiko prie puodelio arbatos.</h3>
             <p style={show61===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Koncerto metu pasidalinama mintimis, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show61===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Koncerto metu tylima, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
         </div>
         <div  className={style.questionContainer}>
@@ -438,18 +438,18 @@ export function SecondPage (props) {
             </h3>
             <h3 onClick={() => hide70()} style={show7===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge.</h3>
             <p style={show70===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Renginio metu pasidalinama mintimis.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show70===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Renginio metu tylima.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
     
             <h3 onClick={() => hide71()} style={show7===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Nuėjimas drauge ir įpsūdžių pasidalinimas po renginio valanda laiko prie puodelio arbatos.</h3>
             <p style={show71===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Renginio metu pasidalinama mintimis, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show71===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Renginio metu tylima, o po jo prie puodelio arbatos dalinamasi įspūdžiais.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
         </div>
         <div  className={style.questionContainer}>
@@ -459,18 +459,18 @@ export function SecondPage (props) {
             </h3>
             <h3 onClick={() => hide80()} style={show8===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Ėjimas drauge į sporto salę.</h3>
             <p style={show80===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Sportuojant bendraujama.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show80===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Sportuojant tylima.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
     
             <h3 onClick={() => hide81()} style={show8===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Sportas nuotoliniu būdu.</h3>
             <p style={show81===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Sportuojant dalinamasi įspūdžiais.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
             <p style={show81===true ?  {display: "flex"}: {display: "none"} } className={style.answer}>Sportuojant tylima.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </p>
         </div>
         <div  className={style.questionContainer}>
@@ -479,16 +479,16 @@ export function SecondPage (props) {
                 <img style={show9===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
             </h3>
             <h3 onClick={() => hide90()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge programavimo.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </h3>
             <h3 onClick={() => hide91()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge šokti.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </h3>
             <h3 onClick={() => hide92()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis drauge sporto veiklos.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </h3>
             <h3 onClick={() => hide93()} style={show9===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Mokintis gaminti.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </h3>
         </div>
         <div  className={style.questionContainer}>
@@ -497,10 +497,10 @@ export function SecondPage (props) {
                 <img style={show1000===false ? (true ? {display: "none"}: {display: "flex"} ) : {}} className={style.questionImg} src={x} alt="x" />
             </h3>
             <h3 style={show1000===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Laikytis dietos.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </h3>
             <h3 style={show1000===true ?  {display: "flex"}: {display: "none"} }className={style.answer}>Sveikai maitintis.
-            <buttnon className={style.btn}>Pasirinkti</buttnon>
+            <button className={style.btn}>Pasirinkti</button>
             </h3>
         </div>
        </section>

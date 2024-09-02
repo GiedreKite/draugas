@@ -26,8 +26,11 @@ import style from './Header.module.css';
 
         <img className={style.img}src={draugas} alt="Logo" />
             <nav>
-                <Link to="/draugas">
+                <Link to="/draugas/main">
                     <button>Pagrindinis</button>
+                </Link>
+                <Link to="/draugas/first">
+                    <button>First</button>
                 </Link>
                 <Link to="/draugas/second">
                     <button>Second</button>
@@ -35,9 +38,10 @@ import style from './Header.module.css';
                 <Link to="/draugas/third">
                     <button>Third</button>
                 </Link>
-                {/* <Link to="/">
-                    <a>Pagrindinis</a>
-                </Link> */}
+                <Link to="/draugas/forth">
+                    <button>Forth</button>
+                </Link>
+
             </nav>
         </header>`;
 

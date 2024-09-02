@@ -9,6 +9,8 @@ import { ThirdPage } from './components/thirdPage/ThirdPage.jsx'
 import {
   BrowserRouter as Router, Routes, Route
 } from 'react-router-dom'
+import { MainPage } from './components/mainPage/MainPage.jsx'
+import { ForthPage } from './components/forthPage/ForthPage.jsx'
 
 
 function App() {
@@ -20,9 +22,11 @@ function App() {
     <Header />
     <Routes>
       <Route className="appDraugas" path="/draugas">
-        <Route className="mainPage" path="" element={<FirstPage/>}></Route>
+        <Route className="mainPage" path="main" element={<MainPage/>}></Route>
+        <Route className="firstPage" path="first" element={<FirstPage/>}></Route>
         <Route className="secondPage" path="second" element={<SecondPage/>}></Route>
         <Route className="thirdPage" path="third" element={<ThirdPage/>}></Route>
+        <Route className="forthPage" path="forth" element={<ForthPage/>}></Route>
       </Route>
     </Routes>
   

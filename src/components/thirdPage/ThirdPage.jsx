@@ -2,6 +2,6 @@
 
 export function ThirdPage () {
 return <>
-<h1>trecias</h1>
+<h1>Krepšelis</h1>
 </>
 }
